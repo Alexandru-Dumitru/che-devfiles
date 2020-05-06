@@ -1,0 +1,23 @@
+apiVersion: v2
+category: Language
+description: "Typescript language features"
+displayName: Typescript
+firstPublicationDate: "2019-10-28"
+icon: "https://www.eclipse.org/che/images/logo-eclipseche.svg"
+name: typescript
+publisher: che-incubator
+repository: "https://github.com/Microsoft/vscode"
+title: "Typescript language features"
+type: "VS Code extension"
+version: remote-bin-with-override-entrypoint
+spec:
+  containers:
+    - image: "example/fedora-for-ts-remote-plugin-without-endpoint:latest"
+      memoryLimit: 512Mi
+      name: vscode-typescript
+      args:
+        - sh
+        - -c
+        - ${PLUGIN_REMOTE_ENDPOINT_EXECUTABLE}
+  extensions:
+    - "https://github.com/che-incubator/ms-code.typescript/releases/download/v1.35.1/che-typescript-language-1.35.1.vsix"

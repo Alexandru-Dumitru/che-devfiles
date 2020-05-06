@@ -1,0 +1,23 @@
+apiVersion: 1.0.0
+metadata:
+    generateName: TEST
+components:
+    -
+        type: chePlugin
+        id: broadcommfd/cobol-language-support/latest
+    -
+        type: chePlugin
+        id: bitlang/cobol/latest
+    -
+        type: chePlugin
+        id: broadcommfd/explorer-for-endevor/latest
+    -
+        type: chePlugin
+        id: broadcommfd/debugger-for-mainframe/latest
+    -
+        type: chePlugin
+        id: broadcommfd/hlasm-language-support/latest
+    -
+        type: chePlugin
+        reference: https://raw.githubusercontent.com/Alexandru-Dumitru/che-devfiles/master/test.yaml
+        alias: zowe
