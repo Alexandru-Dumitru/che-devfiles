@@ -1,6 +1,6 @@
 apiVersion: 1.0.0
 metadata:
-    generateName: TEST
+    generateName: mainframe-basic-stack
 components:
     -
         type: chePlugin
