@@ -28,5 +28,5 @@ components:
         memoryLimit: 512Mi
         volumes:
         - name: ibmz
-        containerPath: /home/user/.zowe
-    mountSources: true
+          containerPath: /home/user/.zowe
+        mountSources: true
