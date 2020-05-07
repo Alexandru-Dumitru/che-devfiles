@@ -9,14 +9,13 @@ description: VS Code extension, powered by Zowe CLI, that streamlines interactio
 icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
 repository: https://github.com/zowe/vscode-extension-for-zowe.git
 category: Other
-firstPublicationDate: "2019-10-03"
 spec:
   containers:
     - image: "quay.io/eclipse/che-sidecar-node:10-0cb5d78"
-      name: vscode-zowe
+      name: zowe-explorer
       memoryLimit: "1500Mi"
       volumes:
-      - mountPath: "/home/theia/.zowe"
-        name: ibmz
+      - mountPath: "/plugins/.zowe"
+        name: zowe-explorer
   extensions:
     - https://github.com/zowe/vscode-extension-for-zowe/releases/download/v1.5.0/vscode-extension-for-zowe-v1.5.0.vsix
