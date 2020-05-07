@@ -18,5 +18,4 @@ spec:
       - mountPath: "/plugins/.zowe"
         name: zowe-explorer
   extensions:
-    # - https://github.com/zowe/vscode-extension-for-zowe/releases/download/v1.5.0/vscode-extension-for-zowe-v1.5.0.vsix
     - http://artifactory-lvn.broadcom.net/artifactory/generic-release-candidate-local/zowe-explorer/vscode-extension-for-zowe-1.5.0-CHE712-patch.vsix

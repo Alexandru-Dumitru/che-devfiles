@@ -21,12 +21,12 @@ components:
         type: chePlugin
         reference: https://raw.githubusercontent.com/Alexandru-Dumitru/che-devfiles/master/ze.yaml
         alias: zowe
-    -
-        type: dockerimage
-        alias: ibmz
-        image: quay.io/eclipse/che-java11-gradle:nightly
-        memoryLimit: 512Mi
-        volumes:
-        - name: ibmz
-          containerPath: /home/user/.zowe
-        mountSources: true
+    # -
+    #     type: dockerimage
+    #     alias: ibmz
+    #     image: quay.io/eclipse/che-java11-gradle:nightly
+    #     memoryLimit: 512Mi
+    #     volumes:
+    #     - name: ibmz
+    #       containerPath: /home/user/.zowe
+    #     mountSources: true
