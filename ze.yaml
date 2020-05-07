@@ -1,5 +1,5 @@
 apiVersion: v2
-publisher: ALEX
+publisher: Broadcom
 name: zowe
 version: latest
 type: VS Code extension
@@ -18,4 +18,5 @@ spec:
       - mountPath: "/plugins/.zowe"
         name: zowe-explorer
   extensions:
-    - https://github.com/zowe/vscode-extension-for-zowe/releases/download/v1.5.0/vscode-extension-for-zowe-v1.5.0.vsix
+    # - https://github.com/zowe/vscode-extension-for-zowe/releases/download/v1.5.0/vscode-extension-for-zowe-v1.5.0.vsix
+    - http://artifactory-lvn.broadcom.net/artifactory/generic-release-candidate-local/zowe-explorer/vscode-extension-for-zowe-1.5.0-che712-patch.vsix
