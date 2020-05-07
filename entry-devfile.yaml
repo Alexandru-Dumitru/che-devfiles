@@ -1,6 +1,6 @@
 apiVersion: 1.0.0
 metadata:
-    generateName: mainframe-basic-stack
+    generateName: mainframe-basic-stack-
 components:
     -
         type: chePlugin
@@ -20,7 +20,7 @@ components:
     -
         type: chePlugin
         reference: https://raw.githubusercontent.com/Alexandru-Dumitru/che-devfiles/master/ze.yaml
-        alias: zowe
+        alias: zowe-explorer
     # -
     #     type: dockerimage
     #     alias: ibmz
