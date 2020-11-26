@@ -1,11 +1,11 @@
 apiVersion: v2
 publisher: Broadcom
-name: zowe
+name: bfg
 version: latest
 type: VS Code extension
 displayName: BFG
 title: BFG EXPLORER
-description: SOMETHING
+description: SOMETHING ABOUT BFG
 icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
 category: Other
 spec:
