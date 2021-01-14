@@ -8,7 +8,8 @@ components:
     id: broadcommfd/cobol-language-support/latest
   - 
     type: chePlugin
-    id: broadcommfd/explorer-for-endevor/latest
+    reference: https://raw.githubusercontent.com/Alexandru-Dumitru/che-devfiles/master/e4e.yaml
+    alias: e4e
   - 
     type: chePlugin
     id: broadcommfd/debugger-for-mainframe/latest
